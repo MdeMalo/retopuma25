@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
         <h2>RETO PUMA BIKE</h2>
         <nav className="footer-nav">
-          <NavLink to="/">INICIO</NavLink>
+          <NavLink to="">INICIO</NavLink>
           <NavLink to="/ruta">RUTA</NavLink>
           <a href="#inscripciones">INSCRIPCIONES</a>
           <a href="#resultados">RESULTADOS</a>

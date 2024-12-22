@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
-import logo2 from '../assets/logo14.png';
+import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
+import logo2 from "../assets/logo14.png";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
@@ -10,22 +10,27 @@ const Navbar = () => {
   // Hook para detectar el desplazamiento de la página
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) { // Cambia 50 por el valor que necesites
+      if (window.scrollY > 50) {
+        // Cambia 50 por el valor que necesites
         setIsScrolled(true); // Se vuelve sólido
       } else {
         setIsScrolled(false); // Se vuelve transparente
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Limpiar el evento al desmontar el componente
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <div className="boxC">
-      <nav className={`rectangle ${isScrolled ? 'solid' : 'transparent'}`} role="navigation" aria-label="main navigation">
+      <nav
+        className={`rectangle ${isScrolled ? "solid" : "transparent"}`}
+        role="navigation"
+        aria-label="main navigation"
+      >
         <div className="navbar-brand">
           <NavLink to="/" className="navbar-item">
             <div className="logoPosition">
@@ -35,19 +40,29 @@ const Navbar = () => {
         </div>
 
         {/* Botones principales de la navbar */}
-        <div className={`divsButtons ${isMenuOpen ? 'is-active' : ''}`}>
-          <div className="div">INICIO</div>
-          <div className="text-wrapper-2">CATALOGO</div>
-          <div className="text-wrapper-3">CATEGORIAS</div>
-          <div className="text-wrapper-4">INSCRIPCIONES</div>
-          <div className="text-wrapper-5">RUTA</div>
+        <div className={`divsButtons ${isMenuOpen ? "is-active" : ""}`}>
+          <NavLink to="/" className="div">
+            INICIO
+          </NavLink>
+          <NavLink to="/catalogo" className="text-wrapper-2">
+            CATALOGO
+          </NavLink>
+          <NavLink to="/categorias" className="text-wrapper-3">
+            CATEGORIAS
+          </NavLink>
+          <NavLink to="/inscripciones" className="text-wrapper-4">
+            INSCRIPCIONES
+          </NavLink>
+          <NavLink to="/ruta" className="text-wrapper-5">
+            RUTA
+          </NavLink>
         </div>
 
         {/* Menú hamburguesa para móviles */}
-        <button 
-          className="navbar-burger" 
-          aria-label="menu" 
-          aria-expanded={isMenuOpen ? "true" : "false"} 
+        <button
+          className="navbar-burger"
+          aria-label="menu"
+          aria-expanded={isMenuOpen ? "true" : "false"}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <span aria-hidden="true"></span>
@@ -58,11 +73,21 @@ const Navbar = () => {
         {/* Menú desplegable para pantallas móviles */}
         {isMenuOpen && (
           <div className="divsButtons-mobile">
-            <div className="div">INICIO</div>
-            <div className="text-wrapper-2">CATALOGO</div>
-            <div className="text-wrapper-3">CATEGORIAS</div>
-            <div className="text-wrapper-4">INSCRIPCIONES</div>
-            <div className="text-wrapper-5">RUTA</div>
+            <NavLink to="/" className="div">
+              INICIO
+            </NavLink>
+            <NavLink to="/catalogo" className="text-wrapper-2">
+              CATALOGO
+            </NavLink>
+            <NavLink to="/categorias" className="text-wrapper-3">
+              CATEGORIAS
+            </NavLink>
+            <NavLink to="/inscripciones" className="text-wrapper-4">
+              INSCRIPCIONES
+            </NavLink>
+            <NavLink to="/ruta" className="text-wrapper-5">
+              RUTA
+            </NavLink>
           </div>
         )}
       </nav>

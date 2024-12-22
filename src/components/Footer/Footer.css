@@ -120,6 +120,10 @@
     font-size: 24px;
   }
 
+  .footer-nav {
+    text-align: center;
+  }
+
   .footer-nav a {
     font-size: 14px;
   }
@@ -148,7 +152,7 @@
 
 @media (max-width: 480px) {
   .footer-nav {
-    flex-direction: column;
+    text-align: center;
     gap: 10px;
   }
 

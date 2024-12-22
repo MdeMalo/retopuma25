@@ -6,6 +6,31 @@
   --nav-text-color: #ffffff;
 }
 
+/* Aplica la fuente y los estilos a los elementos de la navbar */
+.divsButtons .div,
+.divsButtons .text-wrapper-2,
+.divsButtons .text-wrapper-3,
+.divsButtons .text-wrapper-4,
+.divsButtons .text-wrapper-5 {
+  text-decoration: none; /* Quita subrayado */
+  color: white; /* Hereda el color */
+  cursor: pointer; /* Cambia el cursor */
+  background: none; /* Fondo transparente */
+  border: none; /* Sin bordes */
+  font-family: var(--nav-text-font-family); /* Aplica la fuente desde :root */
+  font-size: var(
+    --nav-text-font-size
+  ); /* Aplica el tamaño de fuente desde :root */
+  font-weight: var(
+    --nav-text-font-weight
+  ); /* Aplica el peso de fuente desde :root */
+}
+
+.divsButtons .is-active {
+  font-weight: bold; /* Estilo para el enlace activo */
+  color: #007bff; /* Color para el enlace activo */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -139,6 +164,16 @@
     border-radius: 5px;
     z-index: 1000;
   }
+  
+  .divsButtons-mobile a {
+    text-decoration: none; /* Quita subrayado */
+    color: var(--nav-text-color); /* Usa el color definido en :root */
+    cursor: pointer; /* Cambia el cursor */
+    font-family: var(--nav-text-font-family); /* Aplica la fuente desde :root */
+    font-size: var(--nav-text-font-size); /* Aplica el tamaño de fuente desde :root */
+    font-weight: var(--nav-text-font-weight); /* Aplica el peso de fuente desde :root */
+  }
+  
 
   .divsButtons-mobile > div {
     color: var(--nav-text-color);
