@@ -1,0 +1,67 @@
+:root {
+  --background-color: #fff; /* Color por defecto */
+}
+
+header {
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+body {
+  background-color: #292929 !important;
+}
+
+.contentCatalogo {
+  max-width: 90vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  text-align: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+  padding: 30px 20px;
+  z-index: 1;
+}
+
+.banner {
+  width: 70vw; /* Ajusta el ancho */
+  height: 13vh; /* Ajusta el alto */
+  background-color: #f0a500; /* Amarillo */
+  position: relative;
+  left: 0;
+}
+
+.banner::before,
+.banner::after {
+  content: "";
+  position: absolute;
+  height: 100%; /* Misma altura que el contenedor */
+  width: 1.5vw; /* Ancho de las líneas blancas */
+  background-color: var(--background-color);
+  transform: skewX(-20deg); /* Inclinación para replicar la diagonal */
+}
+
+.banner::before {
+  top: 0;
+  right: 10vw; /* Espaciado de la primera línea blanca */
+}
+
+.banner::after {
+  top: 0;
+  right: 6vw; /* Espaciado de la segunda línea blanca */
+}
+
+.banner .third-line {
+  position: absolute;
+  top: 0;
+  right: -70vw; /* Ajusta según sea necesario */
+  height: 100%; /* Misma altura que el contenedor */
+  width: 74vw; /* Ajusta el ancho para que sea consistente con las otras líneas */
+  background-color: var(--background-color); /* Color por defecto */
+  transform: skewX(-20deg); /* Inclinación para replicar la diagonal */
+}
