@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import "../styles/catalogo.css";
+import "../styles/coleccion.css";
 import tercerEdi1 from "../assets/Catalogo/Tercera edicion/1.png";
 import tercerEdi2 from "../assets/Catalogo/Tercera edicion/2.png";
 import tercerEdi3 from "../assets/Catalogo/Tercera edicion/3.png";
@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Catalogo = () => {
+const Coleccion = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 820);
 
   const handleResize = useCallback(() => {
@@ -40,10 +40,10 @@ const Catalogo = () => {
         <div className="contentCatalogo">
           <h1 className="tituloCatalogo">
             RETO <span className="yellow-text">PUMA</span> BIKE <br />
-            CATÁLOGO
+            COLECCIÓN
           </h1>
           <p>
-            Explora los productos disponibles en nuestra tienda. <br />
+            Explora la historia de esta competencia. <br />
             <span className="yellow-text">"Tu único límite eres tú"</span>
           </p>
 
@@ -134,4 +134,4 @@ const Catalogo = () => {
   );
 };
 
-export default Catalogo;
+export default Coleccion;

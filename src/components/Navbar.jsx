@@ -44,8 +44,8 @@ const Navbar = () => {
           <NavLink to="/" className="div">
             INICIO
           </NavLink>
-          <NavLink to="/catalogo" className="text-wrapper-2">
-            CATALOGO
+          <NavLink to="/coleccion" className="text-wrapper-2">
+            COLECCION
           </NavLink>
           <NavLink to="/categorias" className="text-wrapper-3">
             CATEGORIAS
@@ -76,8 +76,8 @@ const Navbar = () => {
             <NavLink to="/" className="div">
               INICIO
             </NavLink>
-            <NavLink to="/catalogo" className="text-wrapper-2">
-              CATALOGO
+            <NavLink to="/coleccion" className="text-wrapper-2">
+              COLECCION
             </NavLink>
             <NavLink to="/categorias" className="text-wrapper-3">
               CATEGORIAS

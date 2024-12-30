@@ -1,6 +1,5 @@
 .footer {
-  background-color: #1a1a1a;
-  color: #fff;
+  background-color: #101010 !important;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
 }
@@ -15,6 +14,7 @@
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
+  color: #fff;
 }
 
 .footer-nav {

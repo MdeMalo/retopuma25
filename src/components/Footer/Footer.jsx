@@ -59,8 +59,8 @@ const Footer = () => {
         </div>
         <p className="footer-contact">
           Contacto:{" "}
-          <a href="mailto:latasgordobiketapia@gmail.com">
-            latasgordobiketapia@gmail.com
+          <a href="mailto:retopumabike@gmail.com">
+            retopumabike@gmail.com
           </a>
         </p>
         <p className="footer-address">

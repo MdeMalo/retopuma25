@@ -21,20 +21,14 @@
 
 .carousel-item {
   position: relative;
-  display: flex; /* Asegura que el contenedor se ajuste */
-  justify-content: center;
-  align-items: center;
 }
 
 .carousel-image {
-  width: auto; /* Ajusta al ancho natural */
-  max-width: 100%; /* No excede el contenedor */
-  height: auto; /* Ajusta al alto natural */
-  max-height: 100%; /* Controla la altura máxima */
+  width: 100%;
   border-radius: 8px;
-  object-fit: contain; /* Alternativa: 'cover' si quieres cubrir el espacio */
+  max-height: 400px;
+  object-fit: cover;
 }
-
 
 .carousel-caption {
   position: absolute;
