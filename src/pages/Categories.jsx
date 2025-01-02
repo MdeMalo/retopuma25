@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import cats from "../assets/Categorias.jpeg";
 import "../styles/Categories.css";
+import CatsInf from "../components/Tablas premiaciones/infantiles";
+import CatsG1 from "../components/Tablas premiaciones/grupoUno";
+import CatsG2 from "../components/Tablas premiaciones/grupoDos";
 
 const Categories = () => {
   return (
@@ -16,12 +18,12 @@ const Categories = () => {
             RETO <span className="yellow-text">PUMA</span> BIKE <br />
             CATEGORÍAS
           </h1>
-
-          <img
-            src={cats}
-            alt="Categorías y premiaciones"
-            className="categoriesImage"
-          />
+          <br />
+          <CatsInf />
+          <br />
+          <CatsG1 />
+          <br />
+          <CatsG2 />
 
           {/* Descripción breve debajo de la imagen */}
           <p className="descriptionText">

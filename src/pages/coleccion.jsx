@@ -3,9 +3,11 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import "../styles/coleccion.css";
-import tercerEdi1 from "../assets/Catalogo/Tercera edicion/1.png";
-import tercerEdi2 from "../assets/Catalogo/Tercera edicion/2.png";
-import tercerEdi3 from "../assets/Catalogo/Tercera edicion/3.png";
+import segundaEdi1 from "../assets/Catalogo/Segunda edicion/1.png";
+import segundaEdi2 from "../assets/Catalogo/Segunda edicion/2.png";
+import segundaEdi3 from "../assets/Catalogo/Segunda edicion/3.png";
+import primeraEdi1 from "../assets/Catalogo/Primera edicion/4.png";
+import primeraEdi2 from "../assets/Catalogo/Primera edicion/5.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -55,22 +57,22 @@ const Coleccion = () => {
           </div>
 
           {isSmallScreen ? (
-            <Slider {...settings} className="imagesTerceraEdicionSlider">
+            <Slider {...settings} className="sliderJerseys">
               <div>
-                <img src={tercerEdi1} alt="Jersey tercera edición" />
+                <img src={segundaEdi1} alt="Jersey tercera edición" />
               </div>
               <div>
-                <img src={tercerEdi2} alt="Jersey tercera edición" />
+                <img src={segundaEdi2} alt="Jersey tercera edición" />
               </div>
               <div>
-                <img src={tercerEdi3} alt="Jersey tercera edición" />
+                <img src={segundaEdi3} alt="Jersey tercera edición" />
               </div>
             </Slider>
           ) : (
             <div className="imagesTerceraEdicion">
-              <img src={tercerEdi1} alt="Jersey tercera edición" />
-              <img src={tercerEdi2} alt="Jersey tercera edición" />
-              <img src={tercerEdi3} alt="Jersey tercera edición" />
+              <img src={segundaEdi1} alt="Jersey tercera edición" />
+              <img src={segundaEdi2} alt="Jersey tercera edición" />
+              <img src={segundaEdi3} alt="Jersey tercera edición" />
             </div>
           )}
           <br />
@@ -82,22 +84,22 @@ const Coleccion = () => {
           </div>
 
           {isSmallScreen ? (
-            <Slider {...settings} className="imagesTerceraEdicionSlider">
+            <Slider {...settings} className="sliderJerseys">
               <div>
-                <img src={tercerEdi1} alt="Jersey tercera edición" />
+                <img src={segundaEdi1} alt="Jersey tercera edición" />
               </div>
               <div>
-                <img src={tercerEdi2} alt="Jersey tercera edición" />
+                <img src={segundaEdi2} alt="Jersey tercera edición" />
               </div>
               <div>
-                <img src={tercerEdi3} alt="Jersey tercera edición" />
+                <img src={segundaEdi3} alt="Jersey tercera edición" />
               </div>
             </Slider>
           ) : (
             <div className="imagesTerceraEdicion">
-              <img src={tercerEdi1} alt="Jersey tercera edición" />
-              <img src={tercerEdi2} alt="Jersey tercera edición" />
-              <img src={tercerEdi3} alt="Jersey tercera edición" />
+              <img src={segundaEdi1} alt="Jersey tercera edición" />
+              <img src={segundaEdi2} alt="Jersey tercera edición" />
+              <img src={segundaEdi3} alt="Jersey tercera edición" />
             </div>
           )}
           <br />
@@ -109,22 +111,18 @@ const Coleccion = () => {
           </div>
 
           {isSmallScreen ? (
-            <Slider {...settings} className="imagesTerceraEdicionSlider">
+            <Slider {...settings} className="sliderJerseys">
               <div>
-                <img src={tercerEdi1} alt="Jersey tercera edición" />
+                <img src={primeraEdi1} alt="Jersey primera edición" />
               </div>
               <div>
-                <img src={tercerEdi2} alt="Jersey tercera edición" />
-              </div>
-              <div>
-                <img src={tercerEdi3} alt="Jersey tercera edición" />
+                <img src={primeraEdi2} alt="Jersey primera edición" />
               </div>
             </Slider>
           ) : (
             <div className="imagesTerceraEdicion">
-              <img src={tercerEdi1} alt="Jersey tercera edición" />
-              <img src={tercerEdi2} alt="Jersey tercera edición" />
-              <img src={tercerEdi3} alt="Jersey tercera edición" />
+              <img src={primeraEdi1} alt="Jersey tercera edición" />
+              <img src={primeraEdi2} alt="Jersey tercera edición" />
             </div>
           )}
         </div>
