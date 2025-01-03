@@ -4,7 +4,8 @@ import "../Tablas premiaciones/premiaciones.css";
 const InfantilesTable = () => (
   <section>
     <h2>Infantiles</h2>
-    <table className="race-table">
+    <div className="tableContainerInf">
+    <table className="race-table-Inf">
       <thead>
         <tr>
           <th>Categoría</th>
@@ -87,6 +88,7 @@ const InfantilesTable = () => (
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 );
 

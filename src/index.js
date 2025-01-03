@@ -11,6 +11,8 @@ import App from "./App";
 import "bulma/css/bulma.css";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 axios.defaults.withCredentials = true;
 

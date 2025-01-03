@@ -18,11 +18,8 @@ const Categories = () => {
             RETO <span className="yellow-text">PUMA</span> BIKE <br />
             CATEGORÍAS
           </h1>
-          <br />
           <CatsInf />
-          <br />
           <CatsG1 />
-          <br />
           <CatsG2 />
 
           {/* Descripción breve debajo de la imagen */}

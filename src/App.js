@@ -4,6 +4,7 @@ import Categorias from "./pages/Categories";
 import ScrollToTop from "./components/ScrollToTop";
 import Rutas from "./pages/Ruta";
 import Coleccion from "./pages/coleccion";
+import Inscripciones from "./pages/inscripciones";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/categorias" element={<Categorias />} />
         <Route path="/ruta" element={<Rutas />} />
         <Route path="/coleccion" element={<Coleccion />} />
+        <Route path="/inscripciones" element={<Inscripciones />} />
       </Routes>
     </BrowserRouter>
   );
