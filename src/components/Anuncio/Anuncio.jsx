@@ -12,7 +12,7 @@ const Anuncio = () => {
         <div className="anuncio-texto">
           <h1>¡LOS RECUERDOS SON PARA SIEMPRE!</h1>
           <p>Colección de Reto Puma Bike</p>
-          <button className="anuncio-boton">Comprar Ahora</button>
+          <button className="anuncio-boton" onClick={() => window.location.href = '/coleccion'}>¡REVISA NUESTRA COLECCION!</button>
         </div>
       </div>
     </section>

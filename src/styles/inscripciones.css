@@ -16,6 +16,11 @@
   padding: 25px 0px; /* top and bottom padding */
 }
 
+.flayerIMG {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .descriptionText {
   font-size: 3.5vh;
   margin-bottom: 5vh;

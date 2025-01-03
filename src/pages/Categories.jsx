@@ -21,14 +21,23 @@ const Categories = () => {
           <CatsInf />
           <CatsG1 />
           <CatsG2 />
-
-          {/* Descripción breve debajo de la imagen */}
-          <p className="descriptionText">
-            Explora las distintas categorías y premios que hay en cada una.
-            Únete al desafío. <br />
-            <span className="yellow-text">"Tu único límite eres tú"</span>
-          </p>
         </div>
+
+        <div className="buttonContainer">
+          <button
+            className="inscriptionButton"
+            onClick={() => window.location.href = "/inscripciones"}
+          >
+            Ir a Inscripciones
+          </button>
+        </div>
+
+        {/* Descripción breve debajo de la imagen */}
+        <p className="descriptionText">
+          Explora las distintas categorías y premios que hay en cada una. Únete
+          al desafío. <br />
+          <span className="yellow-text">"Tu único límite eres tú"</span>
+        </p>
       </div>
       <Footer />
     </>

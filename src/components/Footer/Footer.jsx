@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import "./Footer.css";
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 
@@ -11,9 +11,8 @@ const Footer = () => {
         <nav className="footer-nav">
           <NavLink to="/">INICIO</NavLink>
           <NavLink to="/ruta">RUTA</NavLink>
-          <a href="#inscripciones">INSCRIPCIONES</a>
-          <a href="#resultados">RESULTADOS</a>
-          <a href="#productos">CATALOGO</a>
+          <NavLink to="/inscripciones">INSCRIPCIONES</NavLink>
+          <NavLink to="/coleccion">COLECCION</NavLink>
           <NavLink to="/categorias">CATEGORIAS</NavLink>
           <a href="#quienes-somos">QUIENES SOMOS</a>
         </nav>
@@ -59,9 +58,7 @@ const Footer = () => {
         </div>
         <p className="footer-contact">
           Contacto:{" "}
-          <a href="mailto:retopumabike@gmail.com">
-            retopumabike@gmail.com
-          </a>
+          <a href="mailto:retopumabike@gmail.com">retopumabike@gmail.com</a>
         </p>
         <p className="footer-address">
           Dirección:{" "}
