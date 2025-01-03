@@ -28,7 +28,7 @@ h1 {
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 
 .race-tableG1-1,
@@ -40,7 +40,7 @@ h1 {
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 
 .race-table-Inf th,
@@ -96,4 +96,41 @@ section h2 {
   text-transform: uppercase;
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --width1: 100%;
+    --width2: 100%;
+  }
+
+  .tableContainerInf,
+  .tableContainerG1-1,
+  .tableContainerG1-2,
+  .tableContainerG2 {
+  display: grid;
+  }
+
+  .race-table-Inf,
+  .race-tableG1-1,
+  .race-tableG1-2,
+  .race-tableG2 {
+    width: 100%;
+  }
+
+  .race-table-Inf th,
+  .race-table-Inf td,
+  .race-tableG1-1 th,
+  .race-tableG1-1 td,
+  .race-tableG1-2 th,
+  .race-tableG1-2 td,
+  .race-tableG2 th,
+  .race-tableG2 td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
 }
