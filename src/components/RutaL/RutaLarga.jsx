@@ -44,13 +44,14 @@ const RutaLarga = () => {
         />
         <div className="ruta-info">
           <p className="ruta-descripcion">
-            Esta es una descripción de la Ruta Larga. Puedes reemplazar este texto con la descripción que desees.
+          Las categorías seleccionadas para el recorrido de 80 km deberán completar 2 vueltas al circuito. 
+          ¡Prepárate para el desafío y disfruta del Reto Puma Bike!
           </p>
           <div className="ruta-info-columnas">
             {/* Primera columna */}
             <div className="ruta-columna">
               <p>
-                <strong>Distancia:</strong> 63.4 Km
+                <strong>Distancia:</strong> 81.2 Km
               </p>
               <p>
                 <strong>Categorías:</strong>
