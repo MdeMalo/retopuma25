@@ -13,11 +13,9 @@ const Ruta = () => {
             <Header />
             <div className='rutaContainer'>
                 <Navbar />
-                <div className='rutaLargaWrapper'>
                     <RutaC />
                     <RutaI />
                     <RutaP />
-                </div>
             </div>
             <Footer />
         </>
