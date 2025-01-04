@@ -1,28 +1,28 @@
-import React, { useEffect } from 'react';
-import { FaPaw } from 'react-icons/fa'; 
-import './RutaPanales.css'; 
-import data from '../../assets/Ruta/RutaP.png';
+import React, { useEffect } from "react";
+import { FaPaw } from "react-icons/fa";
+import "./RutaPanales.css";
+import data from "../../assets/Ruta/RutaP.png";
 
 const RutaPanales = () => {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://strava-embeds.com/embed.js';
+    const script = document.createElement("script");
+    script.src = "https://strava-embeds.com/embed.js";
     script.async = true;
     document.body.appendChild(script);
   }, []);
 
   const categorias = [
-    { nombre: 'Inf. Pañales Femenil', color: '#FF0000' },
-    { nombre: 'Inf. Pañales Varonil', color: '#FF69B4' },
-    { nombre: 'Inf. AA Femenil', color: '#0000FF' },
-    { nombre: 'Inf. AA Varonil', color: '#008000' },
+    { nombre: "Inf. Pañales Femenil", color: "#FF69B4" }, // Pink
+    { nombre: "Inf. Pañales Varonil", color: "#1E90FF" }, // DodgerBlue
+    { nombre: "Inf. AA Femenil", color: "#FF1493" }, // DeepPink
+    { nombre: "Inf. AA Varonil", color: "#00BFFF" }, // DeepSkyBlue
   ];
 
   const edades = [
-    { nombre: '2020-2021-2022', color: '#FF0000' },
-    { nombre: '2020-2021-2022', color: '#FF69B4' },
-    { nombre: '2019 - 2018', color: '#0000FF' },
-    { nombre: '2019 - 2018', color: '#008000' },
+    { nombre: "4 y menos años", color: "#FF69B4" }, // Pink
+    { nombre: "4 y menos años", color: "#1E90FF" }, // DodgerBlue
+    { nombre: "5 y 6 años", color: "#FF1493" }, // DeepPink
+    { nombre: "5 y 6 años", color: "#00BFFF" }, // DeepSkyBlue
   ];
 
   return (
@@ -31,16 +31,17 @@ const RutaPanales = () => {
       <div className="ruta-contenido">
         <div className="ruta-info">
           <p className="ruta-descripcion">
-            Esta es una descripción de la Ruta Larga. Puedes reemplazar este texto con la descripción que desees.
+            Esta es una descripción de la Ruta Larga. Puedes reemplazar este
+            texto con la descripción que desees.
           </p>
           <div className="ruta-info-columnas">
             {/* Primera columna */}
             <div className="ruta-columna">
               <p>
-                <strong>Distancia:</strong> 0.55 Km
+                <span className="black-text">Distancia:</span> 0.55 Km
               </p>
               <p>
-                <strong>Año Nominal:</strong>
+                <span className="black-text">Año Nominal:</span>
               </p>
               <ul className="ruta-lista">
                 {categorias.map((categoria, index) => (
@@ -49,7 +50,7 @@ const RutaPanales = () => {
                       className="ruta-icono"
                       style={{ color: categoria.color }}
                       aria-hidden="true"
-                    />{' '}
+                    />{" "}
                     {categoria.nombre}
                   </li>
                 ))}
@@ -58,10 +59,10 @@ const RutaPanales = () => {
             {/* Segunda columna */}
             <div className="ruta-columna">
               <p>
-                <strong>Altimetría:</strong> 7 m
+                <span className="black-text">Altimetría:</span> 7 m
               </p>
               <p>
-                <strong>Edad:</strong>
+                <span className="black-text">Edad:</span>
               </p>
               <ul className="ruta-lista">
                 {edades.map((edad, index) => (
@@ -70,7 +71,7 @@ const RutaPanales = () => {
                       className="ruta-icono"
                       style={{ color: edad.color }}
                       aria-hidden="true"
-                    />{' '}
+                    />{" "}
                     {edad.nombre}
                   </li>
                 ))}

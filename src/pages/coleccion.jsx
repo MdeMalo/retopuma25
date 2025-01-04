@@ -8,6 +8,12 @@ import segundaEdi2 from "../assets/Catalogo/Segunda edicion/2.png";
 import segundaEdi3 from "../assets/Catalogo/Segunda edicion/3.png";
 import primeraEdi1 from "../assets/Catalogo/Primera edicion/4.png";
 import primeraEdi2 from "../assets/Catalogo/Primera edicion/5.png";
+import terceraEdi1 from "../assets/Catalogo/Tercera edicion/6.png";
+import terceraEdi2 from "../assets/Catalogo/Tercera edicion/7.png";
+import medalla1 from "../assets/Catalogo/Medallas/8.png";
+import medalla2 from "../assets/Catalogo/Medallas/9.png";
+import medalla3 from "../assets/Catalogo/Medallas/10.png";
+import medalla4 from "../assets/Catalogo/Medallas/11.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -49,6 +55,38 @@ const Coleccion = () => {
             <span className="yellow-text">"Tu único límite eres tú"</span>
           </p>
 
+          {/* Slider de imágenes medallas */}
+
+          <div className="banner">
+            <div className="third-line"></div>
+            <div className="banner-text">Medallas</div>
+          </div>
+
+          {isSmallScreen ? (
+            <Slider {...settings} className="sliderJerseys">
+              <div>
+                <img src={medalla2} alt="Medalla primera edición" />
+              </div>
+              <div>
+                <img src={medalla3} alt="Medalla segunda edición" />
+              </div>
+              <div>
+                <img src={medalla4} alt="Medalla tercera edición" />
+              </div>
+              <div>
+                <img src={medalla1} alt="Medalla completa" />
+              </div>
+            </Slider>
+          ) : (
+            <div className="imagesTerceraEdicion">
+              <img src={medalla2} alt="Medalla primera edicion" />
+              <img src={medalla3} alt="Medalla segunda edicion" />
+              <img src={medalla4} alt="Medalla tercera edicion" />
+              <img src={medalla1} alt="Medalla completa" />
+            </div>
+          )}
+          <br />
+
           {/* Slider de imágenes tercera edición */}
 
           <div className="banner">
@@ -59,20 +97,16 @@ const Coleccion = () => {
           {isSmallScreen ? (
             <Slider {...settings} className="sliderJerseys">
               <div>
-                <img src={segundaEdi1} alt="Jersey tercera edición" />
+                <img src={terceraEdi1} alt="Jersey tercera edición" />
               </div>
               <div>
-                <img src={segundaEdi2} alt="Jersey tercera edición" />
-              </div>
-              <div>
-                <img src={segundaEdi3} alt="Jersey tercera edición" />
+                <img src={terceraEdi2} alt="Jersey tercera edición" />
               </div>
             </Slider>
           ) : (
             <div className="imagesTerceraEdicion">
-              <img src={segundaEdi1} alt="Jersey tercera edición" />
-              <img src={segundaEdi2} alt="Jersey tercera edición" />
-              <img src={segundaEdi3} alt="Jersey tercera edición" />
+              <img src={terceraEdi1} alt="Jersey tercera edición" />
+              <img src={terceraEdi2} alt="Jersey tercera edición" />
             </div>
           )}
           <br />

@@ -12,21 +12,21 @@ const RutaInfantil = () => {
   }, []);
 
   const categorias = [
-    { nombre: 'Inf: A Femenil', color: '#FF0000' },
-    { nombre: 'Inf. A Varonil', color: '#FF69B4' },
-    { nombre: 'Inf. B Femenil', color: '#0000FF' },
-    { nombre: 'Inf. B Varonil ', color: '#008000' },
-    { nombre: 'Inf. C Femenil', color: '#FFA500' },
-    { nombre: 'Inf. C Varonil ', color: '#800080' },
+    { nombre: 'Inf: A Femenil', color: '#FF6347' },
+    { nombre: 'Inf. A Varonil', color: '#FFB6C1' },
+    { nombre: 'Inf. B Femenil', color: '#1E90FF' },
+    { nombre: 'Inf. B Varonil ', color: '#32CD32' },
+    { nombre: 'Inf. C Femenil', color: '#FFD700' },
+    { nombre: 'Inf. C Varonil ', color: '#DA70D6' },
   ];
 
   const edades = [
-    { nombre: '2017 - 2016', color: '#FF0000' },
-    { nombre: '2017 - 2016', color: '#FF69B4' },
-    { nombre: '2015 - 2014', color: '#0000FF' },
-    { nombre: '2015 - 2014', color: '#008000' },
-    { nombre: '2013 - 2012', color: '#FFA500' },
-    { nombre: '2013 - 2012', color: '#800080' },
+    { nombre: '7 a 8 años', color: '#FF6347' },
+    { nombre: '7 a 8 años', color: '#FFB6C1' },
+    { nombre: '9 a 10 años', color: '#1E90FF' },
+    { nombre: '9 a 10 años', color: '#32CD32' },
+    { nombre: '11 a 12 años', color: '#FFD700' },
+    { nombre: '11 a 12 años', color: '#DA70D6' },
   ];
 
   return (
@@ -48,10 +48,10 @@ const RutaInfantil = () => {
             {/* Primera columna */}
             <div className="ruta-columna">
               <p>
-                <strong>Distancia:</strong> 4.58 Km
+                <span className='black-text'>Distancia:</span> 4.58 Km
               </p>
               <p>
-                <strong>Categorías:</strong>
+                <span className='black-text'>Categorías:</span>
               </p>
               <ul className="ruta-lista">
                 {categorias.map((categoria, index) => (
@@ -69,10 +69,10 @@ const RutaInfantil = () => {
             {/* Segunda columna */}
             <div className="ruta-columna">
               <p>
-                <strong>Altimetría:</strong> 74 m
+                <span className='black-text'>Altimetría:</span> 74 m
               </p>
               <p>
-                <strong>Año Nominal:</strong>
+                <span className='black-text'>Año Nominal:</span>
               </p>
               <ul className="ruta-lista">
                 {edades.map((edad, index) => (
