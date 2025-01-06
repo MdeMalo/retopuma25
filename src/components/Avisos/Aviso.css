@@ -30,27 +30,7 @@
   object-fit: cover;
 }
 
-.carousel-caption {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
-  color: #fff;
-  text-align: left;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 15px;
-  border-radius: 8px;
-}
-
-.carousel-caption h3 {
-  margin: 0;
-  font-size: 1.5em;
-}
-
-.carousel-caption p {
-  margin: 5px 0 0;
-  font-size: 1em;
-}
+/* Eliminar estilos relacionados con las descripciones */
 
 /* Estilos Responsivos */
 @media (max-width: 768px) {
@@ -58,19 +38,8 @@
     font-size: 2em;
   }
 
-  .carousel-caption {
-    bottom: 15px;
-    left: 15px;
-    right: 15px;
-    padding: 12px;
-  }
-
-  .carousel-caption h3 {
-    font-size: 1.3em;
-  }
-
-  .carousel-caption p {
-    font-size: 0.95em;
+  .carousel-item {
+    max-height: 180px;
   }
 }
 
@@ -78,21 +47,5 @@
   .avisos-title {
     font-size: 1.8em;
   }
-
-  .carousel-caption {
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    padding: 10px;
-  }
-
-  .carousel-caption h3 {
-    font-size: 1.1em;
-  }
-
-  .carousel-caption p {
-    font-size: 0.9em;
-  }
 }
 
-  

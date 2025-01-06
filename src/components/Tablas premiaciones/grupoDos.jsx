@@ -20,7 +20,7 @@ const GrupoDosTable = () => (
         </thead>
         <tbody>
           <tr>
-            <td>Juvenil Libre</td>
+            <td>Juvenil Libre Varonil</td>
             <td>18 años y más</td>
             <td>J</td>
             <td>$1,000.00</td>
@@ -30,7 +30,7 @@ const GrupoDosTable = () => (
             <td>$300.00</td>
           </tr>
           <tr>
-            <td>Juvenil Libre</td>
+            <td>Juvenil Libre Femenil</td>
             <td>18 años y más</td>
             <td>JF</td>
             <td>$1,000.00</td>

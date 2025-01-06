@@ -1,7 +1,7 @@
 import React from "react";
-import { NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Footer.css";
-import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,7 +14,6 @@ const Footer = () => {
           <NavLink to="/inscripciones">INSCRIPCIONES</NavLink>
           <NavLink to="/coleccion">COLECCION</NavLink>
           <NavLink to="/categorias">CATEGORIAS</NavLink>
-          <a href="#quienes-somos">QUIENES SOMOS</a>
         </nav>
         <p>
           En Reto Puma Bike es una experiencia única que celebra la pasión por
@@ -53,6 +52,14 @@ const Footer = () => {
               aria-label="YouTube"
             >
               <FaYoutube />
+            </a>
+            <a
+              href="https://wa.me/527721199093"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp />
             </a>
           </div>
         </div>
