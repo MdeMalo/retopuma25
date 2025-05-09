@@ -1,0 +1,175 @@
+.inscripcionesContainer {
+  max-width: 90vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column; /* Asegura que el contenido se apile verticalmente */
+  justify-content: center; /* Alinea el contenido verticalmente */
+  align-items: center; /* Alinea el contenido horizontalmente */
+  background-color: var(--background-color);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+  padding: 25px 0px; /* top and bottom padding */
+}
+
+.flayerIMG {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.descriptionText {
+  font-size: 3.5vh;
+  margin-bottom: 5vh;
+}
+
+.red-text {
+  color: red;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btnInscripcion {
+  width: 80%;
+  height: 8vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d366; /* Color WhatsApp */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btnInscripcion:hover {
+  background-color: #1ebe5d; /* Color más oscuro */
+  transform: scale(1.05);
+}
+
+.whatsappLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* Estilo para el nuevo botón btnCategories */
+.btnCategories {
+  width: 80%;
+  height: 8vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff; /* Color para el botón de categorías */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btnCategories:hover {
+  background-color: #0056b3; /* Color más oscuro cuando se pasa el cursor */
+  transform: scale(1.05);
+}
+
+/* Media Queries para hacer el diseño responsivo */
+
+/* Pantallas más pequeñas (como móviles) */
+@media (max-width: 768px) {
+  .inscripcionesContainer {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0vh;
+    padding: 15px 0;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  .descriptionText {
+    font-size: 5vh; /* Ajusta el tamaño de la fuente */
+    margin-bottom: 4vh;
+  }
+
+  .btnInscripcion {
+    width: 100%; /* El botón ocupa más espacio en pantallas pequeñas */
+    height: 10vh;
+    font-size: 14px; /* Reduce el tamaño de la fuente del botón */
+  }
+
+  .whatsappLogo {
+    width: 25px;
+    height: 25px; /* Ajusta el tamaño del logo */
+    margin-right: 5px;
+  }
+
+  .btnCategories {
+    width: 100%; /* El botón ocupa más espacio en pantallas pequeñas */
+    height: 10vh;
+    font-size: 14px; /* Reduce el tamaño de la fuente del botón */
+  }
+}
+
+/* Pantallas medianas (tablets) */
+@media (max-width: 1024px) {
+  .descriptionText {
+    font-size: 4vh; /* Ajusta el tamaño de la fuente */
+    margin-bottom: 4.5vh;
+  }
+
+  .btnInscripcion {
+    width: 85%; /* Ajusta el ancho del botón */
+    height: 9vh;
+    font-size: 15px; /* Ajusta el tamaño de la fuente del botón */
+  }
+
+  .whatsappLogo {
+    width: 28px;
+    height: 28px; /* Ajusta el tamaño del logo */
+    margin-right: 7px;
+  }
+
+  .btnCategories {
+    width: 85%; /* Ajusta el ancho del botón */
+    height: 9vh;
+    font-size: 15px; /* Ajusta el tamaño de la fuente del botón */
+  }
+}
+
+/* Pantallas más grandes (como escritorios) */
+@media (min-width: 1025px) {
+  .descriptionText {
+    font-size: 3.5vh; /* Mantiene el tamaño de la fuente original */
+    margin-bottom: 5vh;
+  }
+
+  .btnInscripcion {
+    width: 80%; /* Mantiene el ancho original */
+    height: 8vh;
+    font-size: 16px; /* Mantiene el tamaño de la fuente original */
+  }
+
+  .whatsappLogo {
+    width: 30px;
+    height: 30px; /* Mantiene el tamaño del logo original */
+    margin-right: 8px;
+  }
+
+  .btnCategories {
+    width: 80%; /* Mantiene el ancho original */
+    height: 8vh;
+    font-size: 16px; /* Mantiene el tamaño de la fuente original */
+  }
+}

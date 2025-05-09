@@ -1,0 +1,160 @@
+:root {
+  --background-color: #fff; /* Color por defecto */
+}
+
+header {
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+body {
+  background-color: #292929 !important;
+}
+
+.contentCatalogo {
+  max-width: 90vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+  padding: 25px 0px 25px 0px; /* top, right, bottom, left */
+  z-index: 1;
+}
+
+.banner {
+  width: 70vw; /* Ajusta el ancho */
+  height: 13vh; /* Ajusta el alto */
+  background-color: #f0a500; /* Amarillo */
+  position: relative;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .banner-text {
+  font-size: 2rem; /* Ajusta el tamaño del texto */
+  color: var(
+    --background-color
+  ); /* Color blanco o el definido en la variable */
+  font-weight: bold;
+  z-index: 1; /* Asegura que esté por encima de las líneas decorativas */
+}
+
+.banner::before,
+.banner::after {
+  content: "";
+  position: absolute;
+  height: 105%; /* Misma altura que el contenedor */
+  width: 1.5vw; /* Ancho de las líneas blancas */
+  background-color: var(--background-color);
+  transform: skewX(-20deg); /* Inclinación para replicar la diagonal */
+}
+
+.banner::before {
+  right: 10vw; /* Espaciado de la primera línea blanca */
+}
+
+.banner::after {
+  right: 6vw; /* Espaciado de la segunda línea blanca */
+}
+
+.banner .third-line {
+  position: absolute;
+  right: -70vw; /* Ajusta según sea necesario */
+  height: 105%; /* Misma altura que el contenedor */
+  width: 74vw; /* Ajusta el ancho para que sea consistente con las otras líneas */
+  background-color: var(--background-color); /* Color por defecto */
+  transform: skewX(-20deg); /* Inclinación para replicar la diagonal */
+}
+
+.imagesTerceraEdicion img {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.imagesTerceraEdicion img:hover {
+  transform: scale(1.1);
+}
+
+/* Media Queries */
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  .contentCatalogo {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0vh;
+    padding: 15px 0;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+  .banner {
+    width: 90vw;
+    height: 7vh;
+  }
+
+  .banner .banner-text {
+    font-size: 1.5rem;
+  }
+
+  .banner::before,
+  .banner::after {
+    width: 3vw; /* Ancho de las líneas blancas reducido */
+  }
+
+  .banner::before {
+    right: 13vw;
+  }
+
+  .banner::after {
+    right: 8vw;
+  }
+
+  .banner .third-line {
+    right: -89vw;
+    width: 94vw;
+  }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .contentCatalogo {
+    max-width: 85vw;
+    padding: 20px 0;
+  }
+
+  .banner {
+    width: 80vw;
+    height: 12vh;
+  }
+
+  .banner::before,
+  .banner::after {
+    width: 2vw;
+  }
+
+  .banner::before {
+    right: 9vw;
+  }
+
+  .banner::after {
+    right: 6vw;
+  }
+
+  .banner .third-line {
+    right: -80vw;
+    width: 84vw;
+  }
+}
