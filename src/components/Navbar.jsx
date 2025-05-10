@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import logo2 from "../assets/logo14.png";
 import "../styles/Navbar.css";
@@ -6,6 +6,7 @@ import "../styles/Navbar.css";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false); // Estado para controlar el scroll
+  const menuRef = useRef(null); // Referencia para el menú
 
   // Hook para detectar el desplazamiento de la página
   useEffect(() => {
@@ -24,12 +25,27 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Hook para detectar clics fuera del menú
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Limpiar el evento al desmontar el componente
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [menuRef]);
+
   return (
     <div className="boxC">
       <nav
         className={`rectangle ${isScrolled ? "solid" : "transparent"}`}
         role="navigation"
         aria-label="main navigation"
+        ref={menuRef} // Asignar la referencia al menú
       >
         <div className="navbar-brand">
           <NavLink to="/" className="navbar-item">
@@ -58,19 +74,21 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        {/* Menú hamburguesa para móviles */}
-        <button
-          className="navbar-burger"
+        {/* Botón de menú hamburguesa */}
+        <div
+          className={`navbar-burger burger ${isMenuOpen ? "is-active" : ""}`}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="menu"
           aria-expanded={isMenuOpen ? "true" : "false"}
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </button>
+          <span aria-hidden="true"></span>
+        </div>
 
         {/* Menú desplegable para pantallas móviles */}
+<<<<<<< HEAD
         {isMenuOpen && (
           <div className="divsButtons-mobile">
             <NavLink to="/" className="div">
@@ -90,6 +108,25 @@ const Navbar = () => {
             </NavLink>
           </div>
         )}
+=======
+        <div className={`divsButtons-mobile ${isMenuOpen ? "is-active" : ""}`}>
+          <NavLink to="/" className="div">
+            INICIO
+          </NavLink>
+          <NavLink to="/coleccion" className="text-wrapper-2">
+            COLECCION
+          </NavLink>
+          <NavLink to="/categorias" className="text-wrapper-3">
+            CATEGORIAS
+          </NavLink>
+          <NavLink to="/inscripciones" className="text-wrapper-4">
+            INSCRIPCIONES
+          </NavLink>
+          <NavLink to="/ruta" className="text-wrapper-5">
+            RUTA
+          </NavLink>
+        </div>
+>>>>>>> 724c03f6d048242082345e66e41da75437cf3e48
       </nav>
     </div>
   );
