@@ -10,6 +10,8 @@ import primeraEdi1 from "../assets/Catalogo/Primera edicion/4.png";
 import primeraEdi2 from "../assets/Catalogo/Primera edicion/5.png";
 import terceraEdi1 from "../assets/Catalogo/Tercera edicion/6.png";
 import terceraEdi2 from "../assets/Catalogo/Tercera edicion/7.png";
+import terceraEdi3 from "../assets/Catalogo/Tercera edicion/8.png"; 
+import terceraEdi4 from "../assets/Catalogo/Tercera edicion/9.png"; 
 import medalla1 from "../assets/Catalogo/Medallas/8.png";
 import medalla2 from "../assets/Catalogo/Medallas/9.png";
 import medalla3 from "../assets/Catalogo/Medallas/10.png";
@@ -102,11 +104,21 @@ const Coleccion = () => {
               <div>
                 <img src={terceraEdi2} alt="Jersey tercera edición" />
               </div>
+
+              <div> 
+              <img src={terceraEdi3} alt="Jersey tercera edición" />
+              </div>
+              <div>
+                <img src={terceraEdi4} alt="Jersey tercera edición" />
+              </div>
+
             </Slider>
           ) : (
             <div className="imagesTerceraEdicion">
               <img src={terceraEdi1} alt="Jersey tercera edición" />
               <img src={terceraEdi2} alt="Jersey tercera edición" />
+              <img src={terceraEdi3} alt="Jersey tercera edición" />
+              <img src={terceraEdi4} alt="Jersey tercera edición" />
             </div>
           )}
           <br />

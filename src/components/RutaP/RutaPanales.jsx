@@ -12,17 +12,21 @@ const RutaPanales = () => {
   }, []);
 
   const categorias = [
-    { nombre: "Inf. Pañales Femenil", color: "#FF69B4" }, // Pink
-    { nombre: "Inf. Pañales Varonil", color: "#1E90FF" }, // DodgerBlue
-    { nombre: "Inf. AA Femenil", color: "#FF1493" }, // DeepPink
-    { nombre: "Inf. AA Varonil", color: "#00BFFF" }, // DeepSkyBlue
+    { nombre: "Inf. A Femenil", color: "#FF69B4" }, // Pink
+    { nombre: "Inf. A Varonil", color: "#1E90FF" }, // DodgerBlue
+    { nombre: "Inf. B Femenil", color: "#FF1493" }, // DeepPink
+    { nombre: "Inf. B Varonil", color: "#00BFFF" }, // DeepSkyBlue
+    { nombre: "Inf. C Femenil", color: "#FF1493" }, // DeepPink
+    { nombre: "Inf. C Varonil", color: "#00BFFF" }, // DeepSkyBlue
   ];
 
   const edades = [
-    { nombre: "4 y menos años", color: "#FF69B4" }, // Pink
-    { nombre: "4 y menos años", color: "#1E90FF" }, // DodgerBlue
-    { nombre: "5 y 6 años", color: "#FF1493" }, // DeepPink
-    { nombre: "5 y 6 años", color: "#00BFFF" }, // DeepSkyBlue
+    { nombre: "7 a 8 años", color: "#FF69B4" }, // Pink
+    { nombre: "7 a 8 años", color: "#1E90FF" }, // DodgerBlue
+    { nombre: "9 a 10 años", color: "#FF1493" }, // DeepPink
+    { nombre: "9 a 10 años", color: "#00BFFF" }, // DeepSkyBlue
+    { nombre: "11 a 12 años", color: "#FF1493" }, // DeepPink
+    { nombre: "11 a 12 años", color: "#00BFFF" }, // DeepSkyBlue
   ];
 
   return (
@@ -38,10 +42,10 @@ const RutaPanales = () => {
             {/* Primera columna */}
             <div className="ruta-columna">
               <p>
-                <span className="black-text">Distancia:</span> 0.55 Km
+                <span className="black-text">Distancia:</span> 4 Km
               </p>
               <p>
-                <span className="black-text">Año Nominal:</span>
+                <span className="black-text">Categorías:</span>
               </p>
               <ul className="ruta-lista">
                 {categorias.map((categoria, index) => (
@@ -59,7 +63,7 @@ const RutaPanales = () => {
             {/* Segunda columna */}
             <div className="ruta-columna">
               <p>
-                <span className="black-text">Altimetría:</span> 7 m
+                <span className="black-text">Altimetría:</span> 32 m
               </p>
               <p>
                 <span className="black-text">Edad:</span>
@@ -84,7 +88,7 @@ const RutaPanales = () => {
           className="ruta-mapa"
           dangerouslySetInnerHTML={{
             __html:
-              '<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9370861814" data-style="standard"></div>',
+              '<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="14316801641" data-style="standard" data-from-embed="false"></div>',
           }}
         />
       </div>

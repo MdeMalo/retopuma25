@@ -45,7 +45,7 @@ const Navbar = () => {
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">
-            COLECCION
+            COLECCIÓN
           </NavLink>
           <NavLink to="/categorias" className="text-wrapper-3">
             CATEGORIAS
@@ -77,7 +77,7 @@ const Navbar = () => {
               INICIO
             </NavLink>
             <NavLink to="/coleccion" className="text-wrapper-2">
-              COLECCION
+              COLECCIÓN
             </NavLink>
             <NavLink to="/categorias" className="text-wrapper-3">
               CATEGORIAS

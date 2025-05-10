@@ -12,7 +12,7 @@ const Footer = () => {
           <NavLink to="/">INICIO</NavLink>
           <NavLink to="/ruta">RUTA</NavLink>
           <NavLink to="/inscripciones">INSCRIPCIONES</NavLink>
-          <NavLink to="/coleccion">COLECCION</NavLink>
+          <NavLink to="/coleccion">COLECCIÓN</NavLink>
           <NavLink to="/categorias">CATEGORIAS</NavLink>
           <a href="#quienes-somos">QUIENES SOMOS</a>
         </nav>
