@@ -48,7 +48,7 @@ const Navbar = () => {
         ref={menuRef} // Asignar la referencia al menú
       >
         <div className="navbar-brand">
-          <NavLink to="/" className="navbar-item">
+          <NavLink to="/retopuma25" className="navbar-item">
             <div className="logoPosition">
               <img src={logo2} alt="logo" />
             </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
 
         {/* Botones principales de la navbar */}
         <div className={`divsButtons ${isMenuOpen ? "is-active" : ""}`}>
-          <NavLink to="/" className="div">
+          <NavLink to="/retopuma25" className="div">
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">
@@ -89,7 +89,7 @@ const Navbar = () => {
 
         {/* Menú desplegable para pantallas móviles */}
         <div className={`divsButtons-mobile ${isMenuOpen ? "is-active" : ""}`}>
-          <NavLink to="/" className="div">
+          <NavLink to="/retopuma25" className="div">
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">

@@ -14,7 +14,7 @@ const Sidebar = () => {
   const logout = () => {
     dispatch(LogOut());
     dispatch(reset());
-    navigate("/");
+    navigate("/retopuma25");
   };
 
   return (
@@ -25,8 +25,8 @@ const Sidebar = () => {
            </div>
         <ul className="menu-list">
           <li>
-            <div className="dashboardC">
-               <NavLink to={"/dashboard"} className="has-text-dark">
+            <div className="retopuma25">
+               <NavLink to={"/retopuma25"} className="has-text-dark">
                <IoHome/> Dashboard</NavLink> 
             </div>
           </li>

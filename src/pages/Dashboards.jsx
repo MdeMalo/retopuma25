@@ -16,7 +16,7 @@ const Dashboards = () => {
 
   useEffect(() => {
     if(isError){
-      navigate('/');
+      navigate('/retopuma25');
     }
   }, [isError, navigate]);
 
