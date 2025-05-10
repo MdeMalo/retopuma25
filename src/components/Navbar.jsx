@@ -61,7 +61,7 @@ const Navbar = () => {
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">
-            COLECCION
+            COLECCIÓN
           </NavLink>
           <NavLink to="/categorias" className="text-wrapper-3">
             CATEGORIAS
@@ -88,6 +88,27 @@ const Navbar = () => {
         </div>
 
         {/* Menú desplegable para pantallas móviles */}
+<<<<<<< HEAD
+        {isMenuOpen && (
+          <div className="divsButtons-mobile">
+            <NavLink to="/" className="div">
+              INICIO
+            </NavLink>
+            <NavLink to="/coleccion" className="text-wrapper-2">
+              COLECCIÓN
+            </NavLink>
+            <NavLink to="/categorias" className="text-wrapper-3">
+              CATEGORIAS
+            </NavLink>
+            <NavLink to="/inscripciones" className="text-wrapper-4">
+              INSCRIPCIONES
+            </NavLink>
+            <NavLink to="/ruta" className="text-wrapper-5">
+              RUTA
+            </NavLink>
+          </div>
+        )}
+=======
         <div className={`divsButtons-mobile ${isMenuOpen ? "is-active" : ""}`}>
           <NavLink to="/" className="div">
             INICIO
@@ -105,6 +126,7 @@ const Navbar = () => {
             RUTA
           </NavLink>
         </div>
+>>>>>>> 724c03f6d048242082345e66e41da75437cf3e48
       </nav>
     </div>
   );
