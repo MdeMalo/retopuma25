@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/retopuma25" element={<Dashboard />} />
         <Route path="/categorias" element={<Categorias />} />
         <Route path="/ruta" element={<Rutas />} />
         <Route path="/coleccion" element={<Coleccion />} />

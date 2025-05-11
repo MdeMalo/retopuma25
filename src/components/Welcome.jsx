@@ -14,7 +14,7 @@ const Welcome = () => {
         {/* Video de fondo */}
         <iframe
           className="background-video"
-          src="https://www.youtube.com/embed/k0BfLk6TXLE?autoplay=1&mute=1&loop=1&playlist=k0BfLk6TXLE&controls=0&cc_load_policy=0"
+          src="https://www.youtube.com/embed/iGJ1h3ychoo?autoplay=1&mute=1&loop=1&playlist=iGJ1h3ychoo&controls=0&cc_load_policy=0"
           title="cycling motivation (MTB) 2020"
           frameBorder="0"
           allow="autoplay; encrypted-media"

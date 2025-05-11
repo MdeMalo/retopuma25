@@ -48,16 +48,16 @@ const Navbar = () => {
         ref={menuRef} // Asignar la referencia al menú
       >
         <div className="navbar-brand">
-          <NavLink to="/" className="navbar-item">
+          <NavLink to="/retopuma25" className="navbar-item">
             <div className="logoPosition">
               <img src={logo2} alt="logo" />
             </div>
           </NavLink>
         </div>
 
-        {/* Botones principales de la navbar */}
+         {/* Botones principales de la navbar */}
         <div className={`divsButtons ${isMenuOpen ? "is-active" : ""}`}>
-          <NavLink to="/" className="div">
+          <NavLink to="/retopuma25" className="div">
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">
@@ -74,8 +74,9 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        {/* Botón de menú hamburguesa */}
-        <div
+
+       {/* Botón de menú hamburguesa */}
+       <div
           className={`navbar-burger burger ${isMenuOpen ? "is-active" : ""}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="menu"
@@ -88,34 +89,15 @@ const Navbar = () => {
         </div>
 
         {/* Menú desplegable para pantallas móviles */}
-        {isMenuOpen && (
-          <div className="divsButtons-mobile">
-            <NavLink to="/" className="div">
-              INICIO
-            </NavLink>
-            <NavLink to="/coleccion" className="text-wrapper-2">
-              COLECCIÓN
-            </NavLink>
-            <NavLink to="/categorias" className="text-wrapper-3">
-              CATEGORIAS
-            </NavLink>
-            <NavLink to="/inscripciones" className="text-wrapper-4">
-              INSCRIPCIONES
-            </NavLink>
-            <NavLink to="/ruta" className="text-wrapper-5">
-              RUTA
-            </NavLink>
-          </div>
-        )}
         <div className={`divsButtons-mobile ${isMenuOpen ? "is-active" : ""}`}>
-          <NavLink to="/" className="div">
+          <NavLink to="/retopuma25" className="div">
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">
-            COLECCIÓN
+            COLECCION
           </NavLink>
           <NavLink to="/categorias" className="text-wrapper-3">
-            CATEGORÍAS
+            CATEGORIAS
           </NavLink>
           <NavLink to="/inscripciones" className="text-wrapper-4">
             INSCRIPCIONES
@@ -129,4 +111,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar;
