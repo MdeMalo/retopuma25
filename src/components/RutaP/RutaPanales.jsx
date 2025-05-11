@@ -31,12 +31,16 @@ const RutaPanales = () => {
 
   return (
     <div className="ruta-panales">
-      <h1>RUTA INF. PAÑALES Y AA</h1>
+      <h1>RUTA INFANTIL</h1>
       <div className="ruta-contenido">
         <div className="ruta-info">
           <p className="ruta-descripcion">
-            Esta es una descripción de la Ruta Larga. Puedes reemplazar este
-            texto con la descripción que desees.
+            La ruta infantil es una experiencia diseñada para los más pequeños,
+            donde podrán disfrutar de un recorrido adaptado a su nivel y
+            habilidades. Con un total de 4 km, esta ruta es perfecta para que
+            los niños se diviertan mientras aprenden sobre el ciclismo y la
+            importancia de mantenerse activos. ¡Una aventura emocionante para
+            nuestros futuros ciclistas!
           </p>
           <div className="ruta-info-columnas">
             {/* Primera columna */}

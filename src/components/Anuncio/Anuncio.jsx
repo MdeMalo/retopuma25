@@ -1,6 +1,7 @@
-import React from 'react';
-import './Anuncio.css';
-import imagenAnuncio from '../../assets/Anuncio/jersey.jpg'; 
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Anuncio.css";
+import imagenAnuncio from "../../assets/Anuncio/jersey.jpg";
 
 const Anuncio = () => {
   return (
@@ -12,7 +13,13 @@ const Anuncio = () => {
         <div className="anuncio-texto">
           <h1>¡LOS RECUERDOS SON PARA SIEMPRE!</h1>
           <p>Colección de Reto Puma Bike</p>
-          <button className="anuncio-boton" onClick={() => window.location.href = '/coleccion'}>¡REVISA NUESTRA COLECCION!</button>
+          
+          <Link
+            to="/coleccion"
+            className="anuncio-boton"
+          >
+            ¡REVISA NUESTRA COLECCION!
+          </Link>
         </div>
       </div>
     </section>
@@ -20,5 +27,3 @@ const Anuncio = () => {
 };
 
 export default Anuncio;
-
-
