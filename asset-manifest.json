@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/retopuma25/static/css/main.23f4d863.css",
-    "main.js": "/retopuma25/static/js/main.d2f4b528.js",
+    "main.css": "/retopuma25/static/css/main.bcfd9d28.css",
+    "main.js": "/retopuma25/static/js/main.608033e6.js",
     "static/media/flayer.png": "/retopuma25/static/media/flayer.4ba60e7b538ed769edb5.png",
     "static/media/logo14.png": "/retopuma25/static/media/logo14.8402a27948e32a2f7301.png",
     "static/media/logoagustinos.png": "/retopuma25/static/media/logoagustinos.d5b3d7afc08dde0f3d49.png",
@@ -73,11 +73,11 @@
     "static/media/whatsapp-logo.svg": "/retopuma25/static/media/whatsapp-logo.b8ddeec5f648cebcd4eb51afde04e83d.svg",
     "static/media/slick.woff": "/retopuma25/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/retopuma25/index.html",
-    "main.23f4d863.css.map": "/retopuma25/static/css/main.23f4d863.css.map",
-    "main.d2f4b528.js.map": "/retopuma25/static/js/main.d2f4b528.js.map"
+    "main.bcfd9d28.css.map": "/retopuma25/static/css/main.bcfd9d28.css.map",
+    "main.608033e6.js.map": "/retopuma25/static/js/main.608033e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.23f4d863.css",
-    "static/js/main.d2f4b528.js"
+    "static/css/main.bcfd9d28.css",
+    "static/js/main.608033e6.js"
   ]
 }
