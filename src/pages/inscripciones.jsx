@@ -49,7 +49,7 @@ const Inscripciones = () => {
           >
             VER CATEGORÍAS
           </button>
-          <span className="red-text">*IMPORTANTE:</span> Se tiene un límite de
+          <span className="red-text">IMPORTANTE:</span> Se tiene un límite de
           48 horas para la realización del pago. De no ser así, la inscripción
           se dará por no realizada.
           <p className="yellow-text">"Tu único límite eres tú"</p>

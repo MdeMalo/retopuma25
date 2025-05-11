@@ -46,7 +46,7 @@ const Footer = () => {
               <FaFacebook />
             </a>
             <a
-              href="https://www.youtube.com/channel/UC1tYk7-w0jBQEBBwSrpl2Ow"
+              href="https://www.youtube.com/channel/UCbj7_vPWpUPA7CbAx0MlZmQ"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
@@ -74,7 +74,7 @@ const Footer = () => {
           </a>
         </p>
         <p className="footer-copyright">
-          © 2024 Reto Puma Bike. Todos los derechos reservados.
+          © 2025 Reto Puma Bike. Todos los derechos reservados.
         </p>
       </div>
     </footer>
