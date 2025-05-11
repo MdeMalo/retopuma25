@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
 Sitemap: https://mdemalo.github.io/retopuma25/sitemap.xml
