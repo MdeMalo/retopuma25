@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -24,12 +25,13 @@ const Categories = () => {
         </div>
 
         <div className="buttonContainer">
-          <button
+          <Link
+            to="/inscripciones"
             className="inscriptionButton"
-            onClick={() => window.location.href = "/inscripciones"}
+            aria-label="Ir a la página de categorías"
           >
             Ir a Inscripciones
-          </button>
+          </Link>
         </div>
 
         {/* Descripción breve debajo de la imagen */}

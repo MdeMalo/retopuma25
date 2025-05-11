@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -42,16 +43,16 @@ const Inscripciones = () => {
             />
             INSCRIBIRME
           </button>
-          <button
+          <Link
+            to="/categorias"
             className="btnCategories"
-            onClick={() => (window.location.href = "/categorias")}
             aria-label="Ir a la página de categorías"
           >
             VER CATEGORÍAS
-          </button>
-          <span className="red-text">IMPORTANTE:</span> Se tiene un límite de
-          48 horas para la realización del pago. De no ser así, la inscripción
-          se dará por no realizada.
+          </Link>
+          <span className="red-text">IMPORTANTE:</span> Se tiene un límite de 48
+          horas para la realización del pago. De no ser así, la inscripción se
+          dará por no realizada.
           <p className="yellow-text">"Tu único límite eres tú"</p>
         </div>
       </div>
