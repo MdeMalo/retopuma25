@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/retopuma25/static/css/main.5a5ccdd3.css",
-    "main.js": "/retopuma25/static/js/main.415194c3.js",
-    "static/media/flayer.png": "/retopuma25/static/media/flayer.f25a848d404dd8ac4711.png",
+    "main.js": "/retopuma25/static/js/main.8a8ea032.js",
+    "static/media/flayer.png": "/retopuma25/static/media/flayer.4ba60e7b538ed769edb5.png",
     "static/media/logo14.png": "/retopuma25/static/media/logo14.8402a27948e32a2f7301.png",
     "static/media/logoagustinos.png": "/retopuma25/static/media/logoagustinos.d5b3d7afc08dde0f3d49.png",
     "static/media/1.png": "/retopuma25/static/media/1.7caec42dc137f174406e.png",
@@ -73,10 +73,10 @@
     "static/media/slick.woff": "/retopuma25/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/retopuma25/index.html",
     "main.5a5ccdd3.css.map": "/retopuma25/static/css/main.5a5ccdd3.css.map",
-    "main.415194c3.js.map": "/retopuma25/static/js/main.415194c3.js.map"
+    "main.8a8ea032.js.map": "/retopuma25/static/js/main.8a8ea032.js.map"
   },
   "entrypoints": [
     "static/css/main.5a5ccdd3.css",
-    "static/js/main.415194c3.js"
+    "static/js/main.8a8ea032.js"
   ]
 }
