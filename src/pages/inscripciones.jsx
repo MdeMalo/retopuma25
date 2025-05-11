@@ -44,7 +44,7 @@ const Inscripciones = () => {
             INSCRIBIRME
           </button>
           <Link
-            to="/categorias"
+            to="/retopuma25/categorias"
             className="btnCategories"
             aria-label="Ir a la página de categorías"
           >

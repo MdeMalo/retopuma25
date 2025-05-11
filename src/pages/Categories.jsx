@@ -26,7 +26,7 @@ const Categories = () => {
 
         <div className="buttonContainer">
           <Link
-            to="/inscripciones"
+            to="/retopuma25/inscripciones"
             className="inscriptionButton"
             aria-label="Ir a la página de categorías"
           >

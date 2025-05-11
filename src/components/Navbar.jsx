@@ -60,16 +60,16 @@ const Navbar = () => {
           <NavLink to="/retopuma25" className="div">
             INICIO
           </NavLink>
-          <NavLink to="/coleccion" className="text-wrapper-2">
+          <NavLink to="/retopuma25/coleccion" className="text-wrapper-2">
             COLECCIÓN
           </NavLink>
-          <NavLink to="/categorias" className="text-wrapper-3">
+          <NavLink to="/retopuma25/categorias" className="text-wrapper-3">
             CATEGORIAS
           </NavLink>
-          <NavLink to="/inscripciones" className="text-wrapper-4">
+          <NavLink to="/retopuma25/inscripciones" className="text-wrapper-4">
             INSCRIPCIONES
           </NavLink>
-          <NavLink to="/ruta" className="text-wrapper-5">
+          <NavLink to="/retopuma25/ruta" className="text-wrapper-5">
             RUTA
           </NavLink>
         </div>
@@ -93,16 +93,16 @@ const Navbar = () => {
           <NavLink to="/retopuma25" className="div">
             INICIO
           </NavLink>
-          <NavLink to="/coleccion" className="text-wrapper-2">
+          <NavLink to="/retopuma25/coleccion" className="text-wrapper-2">
             COLECCION
           </NavLink>
-          <NavLink to="/categorias" className="text-wrapper-3">
+          <NavLink to="/retopuma25/categorias" className="text-wrapper-3">
             CATEGORIAS
           </NavLink>
-          <NavLink to="/inscripciones" className="text-wrapper-4">
+          <NavLink to="/retopuma25/inscripciones" className="text-wrapper-4">
             INSCRIPCIONES
           </NavLink>
-          <NavLink to="/ruta" className="text-wrapper-5">
+          <NavLink to="/retopuma25/ruta" className="text-wrapper-5">
             RUTA
           </NavLink>
         </div>
