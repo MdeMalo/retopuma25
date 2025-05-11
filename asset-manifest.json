@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/retopuma25/static/css/main.bcfd9d28.css",
-    "main.js": "/retopuma25/static/js/main.608033e6.js",
+    "main.js": "/retopuma25/static/js/main.fab29d06.js",
     "static/media/flayer.png": "/retopuma25/static/media/flayer.4ba60e7b538ed769edb5.png",
     "static/media/logo14.png": "/retopuma25/static/media/logo14.8402a27948e32a2f7301.png",
     "static/media/logoagustinos.png": "/retopuma25/static/media/logoagustinos.d5b3d7afc08dde0f3d49.png",
@@ -74,10 +74,10 @@
     "index.html": "/retopuma25/index.html",
     "static/media/slick.woff": "/retopuma25/static/media/slick.295183786cd8a1389865.woff",
     "main.bcfd9d28.css.map": "/retopuma25/static/css/main.bcfd9d28.css.map",
-    "main.608033e6.js.map": "/retopuma25/static/js/main.608033e6.js.map"
+    "main.fab29d06.js.map": "/retopuma25/static/js/main.fab29d06.js.map"
   },
   "entrypoints": [
     "static/css/main.bcfd9d28.css",
-    "static/js/main.608033e6.js"
+    "static/js/main.fab29d06.js"
   ]
 }
