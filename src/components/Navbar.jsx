@@ -48,7 +48,7 @@ const Navbar = () => {
         ref={menuRef} // Asignar la referencia al menú
       >
         <div className="navbar-brand">
-          <NavLink to="/retopuma25" className="navbar-item">
+          <NavLink to="/" className="navbar-item">
             <div className="logoPosition">
               <img src={logo2} alt="logo" />
             </div>
