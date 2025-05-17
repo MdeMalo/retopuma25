@@ -11,7 +11,8 @@
 .divsButtons .text-wrapper-2,
 .divsButtons .text-wrapper-3,
 .divsButtons .text-wrapper-4,
-.divsButtons .text-wrapper-5 {
+.divsButtons .text-wrapper-5,
+.divsButtons .text-wrapper-6{
   text-decoration: none;
   color: white;
   cursor: pointer;

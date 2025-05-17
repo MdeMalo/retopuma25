@@ -72,6 +72,9 @@ const Navbar = () => {
           <NavLink to="/retopuma25/ruta" className="text-wrapper-5">
             RUTA
           </NavLink>
+          <NavLink to="/retopuma25/hoteles" className="text-wrapper-6">
+            HOTELES
+          </NavLink>
         </div>
 
 
@@ -104,6 +107,9 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/retopuma25/ruta" className="text-wrapper-5">
             RUTA
+          </NavLink>
+          <NavLink to="/retopuma25/hoteles" className="text-wrapper-6">
+            HOTELES
           </NavLink>
         </div>
       </nav>

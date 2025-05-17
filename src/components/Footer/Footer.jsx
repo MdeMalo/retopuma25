@@ -14,6 +14,7 @@ const Footer = () => {
           <NavLink to="/retopuma25/inscripciones">INSCRIPCIONES</NavLink>
           <NavLink to="/retopuma25/coleccion">COLECCIÓN</NavLink>
           <NavLink to="/retopuma25/categorias">CATEGORIAS</NavLink>
+          <NavLink to="/retopuma25/hoteles">HOTELES</NavLink>
         </nav>
         <p>
           En Reto Puma Bike es una experiencia única que celebra la pasión por

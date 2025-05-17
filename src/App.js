@@ -5,6 +5,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Rutas from "./pages/Ruta";
 import Coleccion from "./pages/coleccion";
 import Inscripciones from "./pages/inscripciones";
+import Hoteles from "./pages/Hoteles";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/retopuma25/ruta" element={<Rutas />} />
         <Route path="/retopuma25/coleccion" element={<Coleccion />} />
         <Route path="/retopuma25/inscripciones" element={<Inscripciones />} />
+        <Route path="/retopuma25/hoteles" element={<Hoteles />} />
       </Routes>
     </BrowserRouter>
   );
