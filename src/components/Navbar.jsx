@@ -55,9 +55,9 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-         {/* Botones principales de la navbar */}
+        {/* Botones principales de la navbar */}
         <div className={`divsButtons ${isMenuOpen ? "is-active" : ""}`}>
-          <NavLink to="/retopuma25" className="div">
+          <NavLink to="/" className="div">
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">
@@ -72,11 +72,13 @@ const Navbar = () => {
           <NavLink to="/ruta" className="text-wrapper-5">
             RUTA
           </NavLink>
+          <NavLink to="/hoteles" className="text-wrapper-6">
+            HOTELES
+          </NavLink>
         </div>
 
-
-       {/* Botón de menú hamburguesa */}
-       <div
+        {/* Botón de menú hamburguesa */}
+        <div
           className={`navbar-burger burger ${isMenuOpen ? "is-active" : ""}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="menu"
@@ -90,7 +92,7 @@ const Navbar = () => {
 
         {/* Menú desplegable para pantallas móviles */}
         <div className={`divsButtons-mobile ${isMenuOpen ? "is-active" : ""}`}>
-          <NavLink to="/retopuma25" className="div">
+          <NavLink to="/" className="div">
             INICIO
           </NavLink>
           <NavLink to="/coleccion" className="text-wrapper-2">
@@ -105,10 +107,13 @@ const Navbar = () => {
           <NavLink to="/ruta" className="text-wrapper-5">
             RUTA
           </NavLink>
+          <NavLink to="/hoteles" className="text-wrapper-6">
+            HOTELES
+          </NavLink>
         </div>
       </nav>
     </div>
   );
 };
 
-export default Navbar;
+export default Navbar;

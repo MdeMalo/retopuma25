@@ -9,12 +9,14 @@ const Footer = () => {
       <div className="footer-container">
         <h2>RETO PUMA BIKE</h2>
         <nav className="footer-nav">
-          <NavLink to="/retopuma25">INICIO</NavLink>
+          <NavLink to="/">INICIO</NavLink>
           <NavLink to="/ruta">RUTA</NavLink>
           <NavLink to="/inscripciones">INSCRIPCIONES</NavLink>
           <NavLink to="/coleccion">COLECCIÓN</NavLink>
           <NavLink to="/categorias">CATEGORIAS</NavLink>
+          <NavLink to="/hoteles">HOTELES</NavLink>
         </nav>
+
         <p>
           En Reto Puma Bike es una experiencia única que celebra la pasión por
           el ciclismo. Reunimos a ciclistas de todos los niveles, con eventos de

@@ -79,6 +79,7 @@
   margin-top: 3vh;
   margin-bottom: 3vh;
   transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
 }
 
 .btnCategories:hover {
