@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboards";
 import Categorias from "./pages/Categories";
 import ScrollToTop from "./components/ScrollToTop";
@@ -9,17 +9,17 @@ import Hoteles from "./pages/Hoteles";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/retopuma25" element={<Dashboard />} />
-        <Route path="/retopuma25/categorias" element={<Categorias />} />
-        <Route path="/retopuma25/ruta" element={<Rutas />} />
-        <Route path="/retopuma25/coleccion" element={<Coleccion />} />
-        <Route path="/retopuma25/inscripciones" element={<Inscripciones />} />
-        <Route path="/retopuma25/hoteles" element={<Hoteles />} />
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/categorias" element={<Categorias />} />
+        <Route path="/ruta" element={<Rutas />} />
+        <Route path="/coleccion" element={<Coleccion />} />
+        <Route path="/inscripciones" element={<Inscripciones />} />
+        <Route path="/hoteles" element={<Hoteles />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

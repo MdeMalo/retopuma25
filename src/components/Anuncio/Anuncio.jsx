@@ -15,7 +15,7 @@ const Anuncio = () => {
           <p>Colección de Reto Puma Bike</p>
           
           <Link
-            to="/retopuma25/coleccion"
+            to="/coleccion"
             className="anuncio-boton"
           >
             ¡REVISA NUESTRA COLECCION!
