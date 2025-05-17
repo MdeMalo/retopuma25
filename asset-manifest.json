@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/retopuma25/static/css/main.f7456803.css",
-    "main.js": "/retopuma25/static/js/main.1392e563.js",
+    "main.js": "/retopuma25/static/js/main.5a96d49e.js",
     "static/media/flayer.png": "/retopuma25/static/media/flayer.4ba60e7b538ed769edb5.png",
     "static/media/logo14.png": "/retopuma25/static/media/logo14.8402a27948e32a2f7301.png",
     "static/media/Casa_blanca.png": "/retopuma25/static/media/Casa_blanca.7da49ca3de8b09a6c036.png",
@@ -81,10 +81,10 @@
     "index.html": "/retopuma25/index.html",
     "static/media/slick.woff": "/retopuma25/static/media/slick.295183786cd8a1389865.woff",
     "main.f7456803.css.map": "/retopuma25/static/css/main.f7456803.css.map",
-    "main.1392e563.js.map": "/retopuma25/static/js/main.1392e563.js.map"
+    "main.5a96d49e.js.map": "/retopuma25/static/js/main.5a96d49e.js.map"
   },
   "entrypoints": [
     "static/css/main.f7456803.css",
-    "static/js/main.1392e563.js"
+    "static/js/main.5a96d49e.js"
   ]
 }
