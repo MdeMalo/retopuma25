@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/retopuma25/static/css/main.bcfd9d28.css",
-    "main.js": "/retopuma25/static/js/main.fab29d06.js",
+    "main.css": "/retopuma25/static/css/main.f7456803.css",
+    "main.js": "/retopuma25/static/js/main.1392e563.js",
     "static/media/flayer.png": "/retopuma25/static/media/flayer.4ba60e7b538ed769edb5.png",
     "static/media/logo14.png": "/retopuma25/static/media/logo14.8402a27948e32a2f7301.png",
+    "static/media/Casa_blanca.png": "/retopuma25/static/media/Casa_blanca.7da49ca3de8b09a6c036.png",
+    "static/media/HOTEL_LA_VILLA_ANTIGUA.png": "/retopuma25/static/media/HOTEL_LA_VILLA_ANTIGUA.1892291c24fb36198396.png",
+    "static/media/Hotel_sendero.png": "/retopuma25/static/media/Hotel_sendero.2af2b807d2bc7374d4d1.png",
+    "static/media/Hotel_San_Patricio.png": "/retopuma25/static/media/Hotel_San_Patricio.5d3ca9daef74a02fede1.png",
+    "static/media/Hotel_convento.png": "/retopuma25/static/media/Hotel_convento.58b730877db46d1a5ed9.png",
     "static/media/logoagustinos.png": "/retopuma25/static/media/logoagustinos.d5b3d7afc08dde0f3d49.png",
     "static/media/1.png": "/retopuma25/static/media/1.7caec42dc137f174406e.png",
     "static/media/4.png": "/retopuma25/static/media/4.be083c49dee20b6c0f08.png",
     "static/media/3.png": "/retopuma25/static/media/3.71a1ed6716da4e252fdd.png",
+    "static/media/Hotel_libertad.png": "/retopuma25/static/media/Hotel_libertad.c53987d734cc0476ce06.png",
+    "static/media/pequenio_encanto.png": "/retopuma25/static/media/pequenio_encanto.c69e8f2713bef43ea1ab.png",
     "static/media/fa-solid-900.ttf": "/retopuma25/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/logoGORDOBIKEPNG.png": "/retopuma25/static/media/logoGORDOBIKEPNG.833d5e2df9e0df58eae7.png",
     "static/media/7.png": "/retopuma25/static/media/7.18e60c66c81d75fd0ff4.png",
@@ -73,11 +80,11 @@
     "static/media/whatsapp-logo.svg": "/retopuma25/static/media/whatsapp-logo.b8ddeec5f648cebcd4eb51afde04e83d.svg",
     "index.html": "/retopuma25/index.html",
     "static/media/slick.woff": "/retopuma25/static/media/slick.295183786cd8a1389865.woff",
-    "main.bcfd9d28.css.map": "/retopuma25/static/css/main.bcfd9d28.css.map",
-    "main.fab29d06.js.map": "/retopuma25/static/js/main.fab29d06.js.map"
+    "main.f7456803.css.map": "/retopuma25/static/css/main.f7456803.css.map",
+    "main.1392e563.js.map": "/retopuma25/static/js/main.1392e563.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcfd9d28.css",
-    "static/js/main.fab29d06.js"
+    "static/css/main.f7456803.css",
+    "static/js/main.1392e563.js"
   ]
 }
