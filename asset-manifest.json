@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/retopuma25/static/css/main.f7456803.css",
-    "main.js": "/retopuma25/static/js/main.1493d88b.js",
+    "main.js": "/retopuma25/static/js/main.d405337f.js",
     "static/media/logoagustinos.webp": "/retopuma25/static/media/logoagustinos.4cd63d4f201c8e068647.webp",
     "static/media/fa-solid-900.ttf": "/retopuma25/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/flayer.webp": "/retopuma25/static/media/flayer.37e3d9891125dd23ef79.webp",
@@ -98,10 +98,10 @@
     "static/media/whatsapp-logo.svg": "/retopuma25/static/media/whatsapp-logo.b8ddeec5f648cebcd4eb51afde04e83d.svg",
     "static/media/slick.woff": "/retopuma25/static/media/slick.295183786cd8a1389865.woff",
     "main.f7456803.css.map": "/retopuma25/static/css/main.f7456803.css.map",
-    "main.1493d88b.js.map": "/retopuma25/static/js/main.1493d88b.js.map"
+    "main.d405337f.js.map": "/retopuma25/static/js/main.d405337f.js.map"
   },
   "entrypoints": [
     "static/css/main.f7456803.css",
-    "static/js/main.1493d88b.js"
+    "static/js/main.d405337f.js"
   ]
 }
