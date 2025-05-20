@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import cyclingImage from '../../assets/video.jpg';
+import cyclingImage from '../../assets-webp/video.webp';
 
 const About = () => {
   return (

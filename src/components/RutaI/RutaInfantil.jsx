@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { FaPaw } from 'react-icons/fa'; 
 import './RutaInfantil.css'; 
-import data from '../../assets/Ruta/RutaI.png'
+import data from '../../assets-webp/Ruta/RutaI.webp'
 
 const RutaInfantil = () => {
   useEffect(() => {

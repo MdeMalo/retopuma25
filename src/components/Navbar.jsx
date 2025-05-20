@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import logo2 from "../assets/logo14.png";
+import logo2 from "../assets-webp/logo14.webp";
 import "../styles/Navbar.css";
 
 const Navbar = () => {

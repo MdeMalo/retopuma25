@@ -3,9 +3,9 @@ import './Header.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../../assets/headerCarousel/car1.jpg";
-import img2 from "../../assets/headerCarousel/car2.jpg";
-import img3 from "../../assets/headerCarousel/car3.jpg";
+import img1 from "../../assets-webp/headerCarousel/car1.webp";
+import img2 from "../../assets-webp/headerCarousel/car2.webp";
+import img3 from "../../assets-webp/headerCarousel/car3.webp";
 
 const Header = () => {
     const settings = {

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import flayer from "../assets/flayer.png";
+import flayer from "../assets-webp/flayer.webp";
 import whatsappLogo from "../assets/logos/whatsapp-logo.svg";
 import "../styles/inscripciones.css";
 

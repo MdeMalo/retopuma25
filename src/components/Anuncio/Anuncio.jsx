@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Anuncio.css";
-import imagenAnuncio from "../../assets/Anuncio/jersey.jpg";
+import imagenAnuncio from "../../assets-webp/Anuncio/jersey.webp";
 
 const Anuncio = () => {
   return (

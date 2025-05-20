@@ -1,15 +1,15 @@
 import React from "react";
 import "./Sponsor.css";
-import sponsor1 from "../../assets/PatrocinadoresIMG/logo farmaymás.png";
-import sponsor2 from "../../assets/PatrocinadoresIMG/logo perez.png";
-import sponsor3 from "../../assets/PatrocinadoresIMG/logoGORDOBIKEPNG.png";
-import sponsor4 from "../../assets/PatrocinadoresIMG/logoagustinos.png";
-import sponsor5 from "../../assets/PatrocinadoresIMG/logoboxthas.png";
-import sponsor6 from "../../assets/PatrocinadoresIMG/logomagdalena.png";
-import sponsor7 from "../../assets/PatrocinadoresIMG/logonora.png";
-import sponsor8 from "../../assets/PatrocinadoresIMG/logopillos.png";
-import sponsor9 from "../../assets/PatrocinadoresIMG/logosubaru.png";
-import sponsor10 from "../../assets/PatrocinadoresIMG/Ninis.png";
+import sponsor1 from "../../assets-webp/PatrocinadoresIMG/logo farmaymás.webp";
+import sponsor2 from "../../assets-webp/PatrocinadoresIMG/logo perez.webp";
+import sponsor3 from "../../assets-webp/PatrocinadoresIMG/logoGORDOBIKEPNG.webp";
+import sponsor4 from "../../assets-webp/PatrocinadoresIMG/logoagustinos.webp";
+import sponsor5 from "../../assets-webp/PatrocinadoresIMG/logoboxthas.webp";
+import sponsor6 from "../../assets-webp/PatrocinadoresIMG/logomagdalena.webp";
+import sponsor7 from "../../assets-webp/PatrocinadoresIMG/logonora.webp";
+import sponsor8 from "../../assets-webp/PatrocinadoresIMG/logopillos.webp";
+import sponsor9 from "../../assets-webp/PatrocinadoresIMG/logosubaru.webp";
+import sponsor10 from "../../assets-webp/PatrocinadoresIMG/Ninis.webp";
 
 const sponsors = [
   sponsor1,

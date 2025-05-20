@@ -6,10 +6,10 @@ import './Aviso.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import image1 from '../../assets/Anuncios generales/Aviso1.jpg';
-import image2 from '../../assets/Anuncios generales/Aviso2.jpg';
-import image3 from '../../assets/Anuncios generales/Aviso3.jpg';
-import image4 from '../../assets/Anuncios generales/prueba.png';
+import image1 from '../../assets-webp/Anuncios generales/Aviso1.webp';
+import image2 from '../../assets-webp/Anuncios generales/Aviso2.webp';
+import image3 from '../../assets-webp/Anuncios generales/Aviso3.webp';
+import image4 from '../../assets-webp/Anuncios generales/prueba.webp';
 
 const Aviso = () => {
   const settings = {

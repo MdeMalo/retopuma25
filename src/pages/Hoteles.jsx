@@ -2,13 +2,13 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import villaAntigua from "../assets/Hoteles/HOTEL_LA_VILLA_ANTIGUA.png";
-import sanPatricio from "../assets/Hoteles/Hotel_San_Patricio.png";
-import convento from "../assets/Hoteles/Hotel_convento.png";
-import sendero from "../assets/Hoteles/Hotel_sendero.png";
-import libertad from "../assets/Hoteles/Hotel_libertad.png";
-import pequenioEncanto from "../assets/Hoteles/pequenio_encanto.png";
-import casaBlanca from "../assets/Hoteles/Casa_blanca.png";
+import villaAntigua from "../assets-webp/Hoteles/HOTEL_LA_VILLA_ANTIGUA.webp";
+import sanPatricio from "../assets-webp/Hoteles/Hotel_San_Patricio.webp";
+import convento from "../assets-webp/Hoteles/Hotel_convento.webp";
+import sendero from "../assets-webp/Hoteles/Hotel_sendero.webp";
+import libertad from "../assets-webp/Hoteles/Hotel_libertad.webp";
+import pequenioEncanto from "../assets-webp/Hoteles/pequenio_encanto.webp";
+import casaBlanca from "../assets-webp/Hoteles/Casa_blanca.webp";
 import "../styles/Hoteles.css";
 
 const hoteles = [
