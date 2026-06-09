@@ -1,0 +1,167 @@
+.ruta-corta {
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a2a1f 100%);
+  min-height: 100vh;
+}
+
+.ruta-corta h1 {
+  font-size: 3em;
+  color: #E3B04B;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 12px rgba(227, 176, 75, 0.3);
+}
+
+.ruta-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.ruta-info {
+  flex: 1 1 300px;
+  min-width: 300px;
+  max-width: 700px;
+  background: rgba(227, 176, 75, 0.08);
+  border-left: 4px solid #E3B04B;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.ruta-mapa {
+  flex: 1 1 300px;
+  min-width: 300px;
+  max-width: 700px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid rgba(227, 176, 75, 0.2);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.ruta-descripcion {
+  margin-bottom: 30px;
+  font-size: 1.05em;
+  color: #e0e0e0;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.ruta-info-columnas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.ruta-columna {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.ruta-columna p {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+  color: #fff;
+}
+
+.ruta-lista {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 15px 0 0 0;
+}
+
+.ruta-lista li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 0.95em;
+  color: #e0e0e0;
+  padding: 8px 12px;
+  background: rgba(227, 176, 75, 0.1);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.ruta-lista li:hover {
+  background: rgba(227, 176, 75, 0.2);
+  transform: translateX(5px);
+}
+
+.ruta-icono {
+  margin-right: 10px;
+  font-size: 1.1em;
+}
+
+.ruta-imagen {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.ruta-imagen img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(227, 176, 75, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ruta-imagen img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(227, 176, 75, 0.3);
+}
+
+.black-text {
+  color: #E3B04B;
+  font-weight: 800;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .ruta-corta {
+    padding: 40px 20px;
+  }
+
+  .ruta-corta h1 {
+    font-size: 2.5em;
+  }
+
+  .ruta-info,
+  .ruta-mapa {
+    max-width: 100%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ruta-corta {
+    padding: 30px 15px;
+  }
+
+  .ruta-corta h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .ruta-contenido {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ruta-info {
+    padding: 20px;
+  }
+
+  .ruta-info-columnas {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ruta-descripcion {
+    font-size: 0.95em;
+  }
+}

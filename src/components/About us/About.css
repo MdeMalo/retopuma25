@@ -1,0 +1,127 @@
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a2a1f 100%);
+  font-family: 'Outfit', sans-serif;
+  gap: 40px;
+}
+
+.about-us-content {
+  flex: 1 1 300px;
+  max-width: 600px;
+  padding: 40px;
+  border-left: 4px solid #E3B04B;
+  border-radius: 8px;
+  background: rgba(227, 176, 75, 0.05);
+}
+
+.about-us h2 {
+  font-size: 2.5em;
+  color: #E3B04B;
+  font-weight: 900;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(227, 176, 75, 0.2);
+}
+
+.about-us p {
+  font-size: 1.05em;
+  color: #e0e0e0;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.event-highlight {
+  background: rgba(227, 176, 75, 0.15);
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 3px solid #E3B04B;
+  margin: 25px 0;
+  font-size: 0.98em;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.7;
+}
+
+.event-highlight strong {
+  color: #E3B04B;
+  font-weight: 700;
+}
+
+.about-us-image {
+  flex: 1 1 300px;
+  max-width: 500px;
+  padding: 20px;
+  perspective: 1000px;
+}
+
+.about-us-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(227, 176, 75, 0.2), 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-us-image img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(227, 176, 75, 0.3), 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+  .about-us {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .about-us-content,
+  .about-us-image {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .about-us h2 {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .about-us p {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .event-highlight {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us h2 {
+    font-size: 1.6em;
+  }
+
+  .about-us p {
+    font-size: 0.95em;
+  }
+
+  .about-us-content,
+  .about-us-image {
+    padding: 15px;
+  }
+
+  .about-us {
+    padding: 30px 15px;
+  }
+
+  .event-highlight {
+    font-size: 0.9em;
+  }
+}
+
+  

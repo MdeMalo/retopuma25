@@ -1,0 +1,113 @@
+.Sponsor {
+  background-color: #2B2B2B;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(200, 200, 200);
+  font-weight: 500;
+}
+
+.container span {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 150px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: transform 0.25s ease, filter 0.25s ease, box-shadow 0.2s ease;
+}
+
+.slide img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Sophisticated card wrapper for each sponsor */
+.sponsor-card {
+  width: 140px;
+  aspect-ratio: 1 / 1;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+.sponsor-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sponsor-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.22);
+}
+
+/* make slider track items use the card */
+.slide {
+  padding: 6px;
+}
+
+.slide img:hover {
+  transform: scale(1.04);
+  filter: grayscale(0%);
+}
+
+@media (max-width: 768px) {
+  .slide {
+    width: 100px;
+    margin-right: 15px;
+  }
+  .container span {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    width: 80px;
+    margin-right: 10px;
+  }
+  .container span {
+    font-size: 1em;
+  }
+}
+

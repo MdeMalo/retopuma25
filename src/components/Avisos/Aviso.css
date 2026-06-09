@@ -1,0 +1,126 @@
+.avisos-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px;
+  background-color: #3b3b3b;
+  box-sizing: border-box;
+}
+
+.avisos-container {
+  width: fit-content;
+  max-width: 95vw;
+  padding: 20px;
+  background-color: #2B2B2B;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.avisos-title {
+  font-size: 2.5rem;
+  color: #E3B04B;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+/* Este controla el tamaño real visible del carrusel */
+.avisos-slider-wrapper {
+  width: min(90vw, 520px);
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Slick */
+.avisos-slider,
+.avisos-slider .slick-slider,
+.avisos-slider .slick-list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.avisos-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.avisos-slider .slick-slide {
+  width: 100%;
+}
+
+.avisos-slider .slick-slide > div {
+  width: 100%;
+}
+
+/* Contenido de cada slide */
+.slide-content {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Imagen */
+.carousel-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Flechas */
+.avisos-slider .slick-prev,
+.avisos-slider .slick-next {
+  z-index: 10;
+}
+
+.avisos-slider .slick-prev {
+  left: 10px;
+}
+
+.avisos-slider .slick-next {
+  right: 10px;
+}
+
+.avisos-slider .slick-prev:before,
+.avisos-slider .slick-next:before {
+  font-size: 28px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .avisos-container {
+    padding: 14px;
+  }
+
+  .avisos-title {
+    font-size: 2rem;
+  }
+
+  .avisos-slider-wrapper {
+    width: 88vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .avisos-section {
+    padding: 16px 8px;
+  }
+
+  .avisos-container {
+    padding: 10px;
+  }
+
+  .avisos-title {
+    font-size: 1.7rem;
+    margin-bottom: 14px;
+  }
+
+  .avisos-slider-wrapper {
+    width: 86vw;
+  }
+}
